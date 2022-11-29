@@ -1,0 +1,25 @@
+{
+  "name": "tugaspekan5_ui_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drajat2610/TugasPekan5_UI_Testing.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "drajat pamuji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drajat2610/TugasPekan5_UI_Testing/issues"
+  },
+  "homepage": "https://github.com/drajat2610/TugasPekan5_UI_Testing#readme",
+  "dependencies": {
+    "cypress": "^11.2.0"
+  }
+}
