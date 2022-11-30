@@ -1,5 +1,3 @@
-
-
 describe('Login', () => {
 
     it('Login with valid username and password', () => {
