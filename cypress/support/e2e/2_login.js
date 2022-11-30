@@ -26,16 +26,16 @@ describe('Login', () => {
           .should('have.text', 'Please enter a username and password.')
     })
 
-    it('Login with invalid username and password', () => {
+    // it('Login with invalid username and password', () => {
 
-        cy.visit('https://parabank.parasoft.com/parabank/index.htm')
+    //     cy.visit('https://parabank.parasoft.com/parabank/index.htm')
         
-        cy.get('[name="username"]').type('test')
-        cy.get('[name="password"]').type('test')
+    //     cy.get('[name="username"]').type('test')
+    //     cy.get('[name="password"]').type('test')
 
-        cy.get('[value="Log In"]').click()
+    //     cy.get('[value="Log In"]').click()
 
-        cy.get('.error')
-          .should('have.text', 'The username and password could not be verified.')
-    })
+    //     cy.get('.error')
+    //       .should('have.text', 'The username and password could not be verified.')
+    // })
 })
