@@ -1,3 +1,5 @@
+const data = require('../../data/customer.json')
+
 describe('Forgot Password', () => {
 
     it('Get login info with valid data', () => {
@@ -6,13 +8,13 @@ describe('Forgot Password', () => {
 
         cy.get('a[href*="lookup"]').click()
 
-        cy.get('[id="firstName"]').type('Erling')
-        cy.get('[id="lastName"]').type('Halan')
-        cy.get('[id="address.street"]').type('Jalan MBZ No.1')
-        cy.get('[id="address.city"]').type('Cikarang')
-        cy.get('[id="address.state"]').type('Indonesia')
-        cy.get('[id="address.zipCode"]').type('13122')
-        cy.get('[id="ssn"]').type('112233')
+        cy.get('[id="firstName"]').type(data.firstname)
+        cy.get('[id="lastName"]').type(data.lastname)
+        cy.get('[id="address.street"]').type(data.address)
+        cy.get('[id="address.city"]').type(data.city)
+        cy.get('[id="address.state"]').type(data.state)
+        cy.get('[id="address.zipCode"]').type(data.zipcode)
+        cy.get('[id="ssn"]').type(data.ssn)
 
         cy.get('[value="Find My Login Info"]').click()
 

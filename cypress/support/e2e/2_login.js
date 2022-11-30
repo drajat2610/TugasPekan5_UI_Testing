@@ -1,11 +1,13 @@
+const data = require('../../data/customer.json')
+
 describe('Login', () => {
 
     it('Login with valid username and password', () => {
 
         cy.visit('https://parabank.parasoft.com/parabank/index.htm')
         
-        cy.get('[name="username"]').type('erlinghalan')
-        cy.get('[name="password"]').type('password')
+        cy.get('[name="username"]').type(data.username)
+        cy.get('[name="password"]').type(data.password)
 
         cy.get('[value="Log In"]').click()
 
