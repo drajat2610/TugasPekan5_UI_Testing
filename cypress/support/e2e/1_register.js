@@ -25,7 +25,7 @@ describe('Register', () => {
         })
     })
 
-    it('Register existing customer', () => {
+    it('Register existing customers', () => {
 
         cy.visit('https://parabank.parasoft.com/parabank/index.htm')
         
