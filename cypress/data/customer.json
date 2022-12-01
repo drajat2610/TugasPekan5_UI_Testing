@@ -1,12 +1,12 @@
 {
-    "firstname" : "Phil",
-    "lastname" : "Foden",
+    "firstname" : "Sadio",
+    "lastname" : "Mane",
     "address" : "Jalan Kemang Utara No 1",
     "city" : "Jakarta Selatan",
     "state" : "Indonesia",
     "zipcode" : "19821",
     "ssn" : "12345",
-    "username" : "philfoden",
+    "username" : "sadiomane",
     "password" : "password",
     "confirmpassword" : "password"
 }

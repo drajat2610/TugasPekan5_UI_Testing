@@ -19,10 +19,10 @@ describe('Forgot Password', () => {
         cy.get('[value="Find My Login Info"]').click()
 
         cy.get('[id="rightPanel"]').within(() => {
-            cy.get('.title').should('have.text', 'Customer Lookup')
+            cy.get('.title').should('contain', 'Customer Lookup')
             cy.get('p').should('contain', 'Your login information was located successfully. You are now logged in. ')
-              .and('contain', 'erlinghalan')
-              .and('contain', 'password')
+              .and('contain', data.username)
+              .and('contain', data.password)
         })
     })
 

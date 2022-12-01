@@ -22,7 +22,7 @@ describe('Register', () => {
         cy.get('[value="Register"]').click()
 
         cy.get('[id="rightPanel"]').within(() => {
-          cy.get('.title').should('have.text', 'Welcome erlinghalan')
+          cy.get('.title').should('have.text', 'Welcome ' + data.username)
           cy.get('p').should('have.text', 'Your account was created successfully. You are now logged in.')
         })
     })
