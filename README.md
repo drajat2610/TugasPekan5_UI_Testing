@@ -15,10 +15,10 @@ Testing result :
 ![image](https://user-images.githubusercontent.com/37176564/205238795-3ef1c5bd-c94b-4340-8f98-ac1a1cb86c59.png)
 
 1. Register
-https://drive.google.com/file/d/1PrzyeZFBAWU5IjQYb3xGpXPw76JTQ6tI/view?usp=share_link
+https://user-images.githubusercontent.com/37176564/205239785-4ec2c2fb-fb23-4a12-8d3c-f4ede08e8df2.mp4
 
 2. Login
-https://drive.google.com/file/d/1alAQstx1FwUNDp5tYAaKZOgYbrbGLJov/view?usp=share_link
+https://user-images.githubusercontent.com/37176564/205239826-761c827f-6b48-44ff-9519-84e02e7db008.mp4
 
 3. Forgot password
-https://drive.google.com/file/d/1kE66JV-U55tiHLTtkPQJE-P6Lb9wGttX/view?usp=share_link
+https://user-images.githubusercontent.com/37176564/205239877-b1bd44d5-0241-4b06-a39f-69ff5fa0af58.mp4
