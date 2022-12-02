@@ -12,7 +12,7 @@ How to run and create video :
 npm cypress run
 
 Testing result :
-![image](https://user-images.githubusercontent.com/37176564/205238795-3ef1c5bd-c94b-4340-8f98-ac1a1cb86c59.png)
+![image](https://user-images.githubusercontent.com/37176564/205240286-9a10a0f1-73b9-4870-8ec1-270b712dd913.png)
 
 1. Register
 https://user-images.githubusercontent.com/37176564/205239785-4ec2c2fb-fb23-4a12-8d3c-f4ede08e8df2.mp4
